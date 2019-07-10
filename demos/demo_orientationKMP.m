@@ -190,8 +190,8 @@ end
 
 %% Show demonstrations
 figure
-set(gcf, 'Position', [907 502 781 952])
-subplot(2,1,1)
+set(gcf, 'Position', [695 943 1350 425])
+subplot(1,2,1)
 hold on
 plot(demosAll(1,1:1:end),demosAll(2:5,1:1:end),'.') 
 xlabel('t [s]','interpreter','tex')
@@ -199,15 +199,15 @@ ylabel('  ','interpreter','tex')
 ylim([0 1])
 set(gca,'xtick',[0 5 10])
 set(gca,'ytick',[0 0.5 1])
-set(gca,'FontSize',20)
+set(gca,'FontSize',18)
 grid on
 box on
 set(gca,'gridlinestyle','--')
 ax=gca;
 ax.GridAlpha=0.3;
-legend({'$q_s$','$q_x$','$q_y$','$q_z$'},'interpreter','latex','Orientation','horizontal','FontSize',28)
+legend({'$q_s$','$q_x$','$q_y$','$q_z$'},'interpreter','latex','Orientation','horizontal','FontSize',20)
 
-subplot(2,1,2)
+subplot(1,2,2)
 hold on
 plot(demosAll(1,1:1:end),demosAll(6:8,1:1:end),'.') 
 xlabel('t [s]','interpreter','tex')
@@ -215,18 +215,18 @@ ylabel('  [rad/s]','interpreter','tex')
 ylim([-0.5 0.5])
 set(gca,'xtick',[0 5 10])
 set(gca,'ytick',[-0.5 0 0.5])
-set(gca,'FontSize',20)
+set(gca,'FontSize',18)
 grid on
 box on
 set(gca,'gridlinestyle','--')
 ax=gca;
 ax.GridAlpha=0.3;
-legend({'$\omega_x$','$\omega_y$','$\omega_z$'},'interpreter','latex','Orientation','horizontal','FontSize',28)
+legend({'$\omega_x$','$\omega_y$','$\omega_z$'},'interpreter','latex','Orientation','horizontal','FontSize',20)
         
 %% Show kmp predictions
 figure
-set(gcf, 'Position', [1691 485 831 998])
-subplot(2,1,1)
+set(gcf, 'Position', [690 384 1357 425])
+subplot(1,2,1)
 plot(trajAda(1,:),trajAda(2:5,:),'linewidth',3.0) % plot quaternion trajectory
 for plotIndex=1:4
     for viaIndex=1:3
@@ -242,14 +242,14 @@ ylabel('  ','interpreter','tex')
 ylim([0 1])
 set(gca,'xtick',[0 5 10])
 set(gca,'ytick',[0 0.5 1])
-set(gca,'FontSize',20)
+set(gca,'FontSize',18)
 grid on
 set(gca,'gridlinestyle','--')
 ax=gca;
 ax.GridAlpha=0.3;
-legend({'$q_s$','$q_x$','$q_y$','$q_z$'},'interpreter','latex','Orientation','horizontal','FontSize',28)
+legend({'$q_s$','$q_x$','$q_y$','$q_z$'},'interpreter','latex','Orientation','horizontal','FontSize',20)
 
-subplot(2,1,2)
+subplot(1,2,2)
 plot(trajAda(1,:),adaOmega(1:3,:),'linewidth',3.0) % plot angular velocity
 for plotIndex=1:3
     for viaIndex=1:3
@@ -265,10 +265,11 @@ ylabel('  [rad/s]','interpreter','tex')
 ylim([-0.5 0.5])
 set(gca,'xtick',[0 5 10])
 set(gca,'ytick',[-0.5 0 0.5])
-set(gca,'FontSize',20)
+
+set(gca,'FontSize',18)
 grid on
 set(gca,'gridlinestyle','--')
 ax=gca;
 ax.GridAlpha=0.3;
-legend({'$\omega_x$','$\omega_y$','$\omega_z$'},'interpreter','latex','Orientation','horizontal','FontSize',28)
+legend({'$\omega_x$','$\omega_y$','$\omega_z$'},'interpreter','latex','Orientation','horizontal','FontSize',20)
 
