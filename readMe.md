@@ -13,7 +13,7 @@ which have been acknowledged in the corresponding files.
  * <b>KERNELIZED MOVEMENT PRIMITIVES (KMP)</b> 
 <p align="center">
   <b><i>Model letters 'G' using GMM/GMR</i></b> <br>
-  <img width="600" height="125"  src="https://github.com/yanlongtu/robInfLib/blob/master/images/writtenLetterG.png">
+  <img width="600" height="125"  src="https://github.com/yanlongtu/robInfLib/blob/master/images/modelLetterG.png">
 </p>
 
 <p align="center">
@@ -24,11 +24,11 @@ which have been acknowledged in the corresponding files.
  * <b>ORIENTATION-KMP</b>
 <p align="center">
   <b><i>Demonstated quaternions and angular velocities</i></b> <br>
-  <img width="400" height="260" src="https://github.com/yanlongtu/robInfLib/blob/master/images/orientation_kmp_data.png">
+  <img width="500" height="170" src="https://github.com/yanlongtu/robInfLib/blob/master/images/orientation_kmp_data.png">
 </p>
 <p align="center">
   <b><i>Adaptation by using orientation-KMP</i></b> <br>
-  <img width="400" height="260" src="https://github.com/yanlongtu/robInfLib/blob/master/images/orientation_kmp_ada.png">
+  <img width="500" height="170" src="https://github.com/yanlongtu/robInfLib/blob/master/images/orientation_kmp_ada.png">
 </p>
 
 
