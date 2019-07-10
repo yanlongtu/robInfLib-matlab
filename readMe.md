@@ -24,11 +24,11 @@ which have been acknowledged in the corresponding files.
  * <b>ORIENTATION-KMP</b>
 <p align="center">
   <b><i>Demonstated quaternions and angular velocities</i></b> <br>
-  <img width="500" height="170" src="https://github.com/yanlongtu/robInfLib/blob/master/images/orientation_kmp_data.png">
+  <img width="400" height="137" src="https://github.com/yanlongtu/robInfLib/blob/master/images/orientation_kmp_data.png">
 </p>
 <p align="center">
   <b><i>Adaptation by using orientation-KMP</i></b> <br>
-  <img width="500" height="170" src="https://github.com/yanlongtu/robInfLib/blob/master/images/orientation_kmp_ada.png">
+  <img width="400" height="137" src="https://github.com/yanlongtu/robInfLib/blob/master/images/orientation_kmp_ada.png">
 </p>
 
 
