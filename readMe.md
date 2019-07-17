@@ -41,7 +41,9 @@ which have been acknowledged in the corresponding files.
   Author = {Huang, Y. and Rozo, L. and Silv\'erio, J. and Caldwell, D. G.},
   Journal = {International Journal of Robotics Research},
   Year = {2019},
-  Pages = {833--852}
+  Volume={38},
+  Number={7},
+  Pages = {833--852},
 }
 
 @InProceedings{Huang19ICRA_1,
