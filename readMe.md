@@ -10,7 +10,7 @@ which have been acknowledged in the corresponding files.
 
 ### DEMOS ILLUSTRATIONS
 
- * <b>KERNELIZED MOVEMENT PRIMITIVES (KMP) I </b> <i>(demo_KMP01.m)<i>
+ * <b>KERNELIZED MOVEMENT PRIMITIVES (KMP) I <i>(demo_KMP01.m)<i> </b> 
 <p align="center">
   <b><i>Model letters 'G' using GMM/GMR</i></b> <br>
   <img width="720" height="160"  src="https://github.com/yanlongtu/robInfLib/blob/master/images/modelLetterG.png">
@@ -23,7 +23,7 @@ which have been acknowledged in the corresponding files.
 
 
 
- * <b>KERNELIZED MOVEMENT PRIMITIVES (KMP) II </b> <i>(demo_KMP02.m)<i>
+ * <b>KERNELIZED MOVEMENT PRIMITIVES (KMP) II <i>(demo_KMP02.m)<i> </b> 
 <p align="center">
   <b><i>Model letters 'B' using GMM/GMR</i></b> <br>
   <img width="720" height="160"  src="https://github.com/yanlongtu/robInfLib/blob/master/images/modelLetterB.png">
@@ -36,7 +36,7 @@ which have been acknowledged in the corresponding files.
 
 
 
- * <b>ORIENTATION-KMP</b> <i>(demo_orientationKMP.m)<i>
+ * <b>ORIENTATION-KMP <i>(demo_orientationKMP.m)<i> </b>
 <p align="center">
   <b><i>Demonstrated quaternions and angular velocities</i></b> <br>
   <img width="550" height="180" src="https://github.com/yanlongtu/robInfLib/blob/master/images/orientation_kmp_data.png">
