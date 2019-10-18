@@ -12,12 +12,12 @@ which have been acknowledged in the corresponding files.
 
 > <b>KERNELIZED MOVEMENT PRIMITIVES I <i>(demo_KMP01.m)</i> </b> 
 <p align="center">
-  Model letters 'G' using GMM/GMR<br>
+  ###### Model letters 'G' using GMM/GMR<br>
   <img width="720" height="160"  src="https://github.com/yanlongtu/robInfLib/blob/master/images/modelLetterG.png">
 </p>
 
 <p align="center">
-  Trajectory adaptation by using KMP (mean) <br>
+  ###### Trajectory adaptation by using KMP (mean) <br>
   <img width="1400" height="150"  src="https://github.com/yanlongtu/robInfLib/blob/master/images/kmp_adaptationG.png">
 </p>
 
