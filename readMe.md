@@ -10,39 +10,39 @@ which have been acknowledged in the corresponding files.
 
 ### DEMOS ILLUSTRATIONS
 
-> <b>KERNELIZED MOVEMENT PRIMITIVES I <i>(demo_KMP01.m)<i> </b> 
+> <b>KERNELIZED MOVEMENT PRIMITIVES I <i>(demo_KMP01.m)</i> </b> 
 <p align="center">
-  <i>Model letters 'G' using GMM/GMR</i> <br>
+  Model letters 'G' using GMM/GMR<br>
   <img width="720" height="160"  src="https://github.com/yanlongtu/robInfLib/blob/master/images/modelLetterG.png">
 </p>
 
 <p align="center">
-  <i>Trajectory adaptation by using KMP (mean)</i> <br>
+  Trajectory adaptation by using KMP (mean) <br>
   <img width="1400" height="150"  src="https://github.com/yanlongtu/robInfLib/blob/master/images/kmp_adaptationG.png">
 </p>
 
 
 
-> <b>KERNELIZED MOVEMENT PRIMITIVES II <i>(demo_KMP02.m)<i> </b> 
+> <b>KERNELIZED MOVEMENT PRIMITIVES II <i>(demo_KMP02.m)</i> </b> 
 <p align="center">
-  <i>Model letters 'B' using GMM/GMR</i> <br>
+  Model letters 'B' using GMM/GMR<br>
   <img width="720" height="160"  src="https://github.com/yanlongtu/robInfLib/blob/master/images/modelLetterB.png">
 </p>
 
 <p align="center">
-  <i>Trajectory adaptation by using KMP (mean and covariance)</i> <br>
+  Trajectory adaptation by using KMP (mean and covariance) <br>
   <img width="720" height="180"  src="https://github.com/yanlongtu/robInfLib/blob/master/images/kmp_adaptationB.png">
 </p>
 
 
 
-> <b>ORIENTATION KERNELIZED MOVEMENT PRIMITIVES <i>(demo_orientationKMP.m)<i> </b>
+> <b>ORIENTATION KERNELIZED MOVEMENT PRIMITIVES <i>(demo_orientationKMP.m)</i> </b>
 <p align="center">
-  <i>Demonstrated quaternions and angular velocities</i> <br>
+  Demonstrated quaternions and angular velocities <br>
   <img width="550" height="180" src="https://github.com/yanlongtu/robInfLib/blob/master/images/orientation_kmp_data.png">
 </p>
 <p align="center">
-  <i>Adaptation by using orientation-KMP</i> <br>
+  Adaptation by using orientation-KMP <br>
   <img width="550" height="180" src="https://github.com/yanlongtu/robInfLib/blob/master/images/orientation_kmp_ada.png">
 </p>
 
