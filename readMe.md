@@ -50,8 +50,10 @@ which have been acknowledged in the corresponding files.
 
 ### REFERENCE
 
+
+#### [1] 
+[Link to publication](https://arxiv.org/abs/1708.08638)
 ```
-[1] `<Link to publication>`: <https://arxiv.org/abs/1708.08638>
 @Article{Huang19IJRR,
   Title = {Kernelized Movement Primitives},
   Author = {Huang, Y. and Rozo, L. and Silv\'erio, J. and Caldwell, D. G.},
