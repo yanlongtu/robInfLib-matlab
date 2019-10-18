@@ -10,15 +10,26 @@ which have been acknowledged in the corresponding files.
 
 ### DEMO ILLUSTRATIONS
 
- * <b>KERNELIZED MOVEMENT PRIMITIVES (KMP)</b> 
+ * <b>KERNELIZED MOVEMENT PRIMITIVES (KMP) I </b> 
 <p align="center">
   <b><i>Model letters 'G' using GMM/GMR</i></b> <br>
   <img width="600" height="125"  src="https://github.com/yanlongtu/robInfLib/blob/master/images/modelLetterG.png">
 </p>
 
 <p align="center">
-  <b><i>Trajectory adaptation by using KMP</i></b> <br>
-  <img width="720" height="100"  src="https://github.com/yanlongtu/robInfLib/blob/master/images/kmp_adaptation.png">
+  <b><i>Trajectory adaptation by using KMP (mean)</i></b> <br>
+  <img width="720" height="100"  src="https://github.com/yanlongtu/robInfLib/blob/master/images/kmp_adaptationG.png">
+</p>
+
+ * <b>KERNELIZED MOVEMENT PRIMITIVES (KMP) II </b> 
+<p align="center">
+  <b><i>Model letters 'B' using GMM/GMR</i></b> <br>
+  <img width="600" height="125"  src="https://github.com/yanlongtu/robInfLib/blob/master/images/modelLetterB.png">
+</p>
+
+<p align="center">
+  <b><i>Trajectory adaptation by using KMP (mean and covariance)</i></b> <br>
+  <img width="720" height="100"  src="https://github.com/yanlongtu/robInfLib/blob/master/images/kmp_adaptationB.png">
 </p>
 
  * <b>ORIENTATION-KMP</b>
