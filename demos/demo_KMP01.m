@@ -76,7 +76,7 @@ end
 %% Set kmp parameters
 dt=0.005;
 len=demo_dura/dt;
-lamda=1; 
+lamda=1; % control mean prediction
 kh=6;
 
 %% Set desired points
@@ -105,11 +105,11 @@ for viaIndex=1:viaNum
 end
 
 %% Prediction using kmp
-Kinv = kmp_estimateMatrix(newRef,newLen,kh,lamda,dim);
+Kinv = kmp_estimateMatrix_mean(newRef,newLen,kh,lamda,dim);
 
 for index=1:len
     t=index*dt;
-    mu=kmp_pred(t,newRef,newLen,kh,Kinv,dim);
+    mu=kmp_pred_mean(t,newRef,newLen,kh,Kinv,dim);
     kmpPredTraj(index).t=index*dt;
     kmpPredTraj(index).mu=mu;         
 end
