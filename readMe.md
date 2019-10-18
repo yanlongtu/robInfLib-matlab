@@ -8,7 +8,7 @@ Part of the codes are provided by Dr. Sylvain Calinon, Dr. Fares J. Abu-Dakka an
 which have been acknowledged in the corresponding files.
 ```
 
-### DEMO ILLUSTRATIONS
+### DEMOS ILLUSTRATIONS
 
  * <b>KERNELIZED MOVEMENT PRIMITIVES (KMP) I </b> <i>(demo_KMP01.m)<i>
 <p align="center">
@@ -32,7 +32,7 @@ which have been acknowledged in the corresponding files.
   <img width="720" height="180"  src="https://github.com/yanlongtu/robInfLib/blob/master/images/kmp_adaptationB.png">
 </p>
 
- * <b>ORIENTATION-KMP</b> <i>demo_orientationKMP<i>
+ * <b>ORIENTATION-KMP</b> <i>(demo_orientationKMP.m)<i>
 <p align="center">
   <b><i>Demonstrated quaternions and angular velocities</i></b> <br>
   <img width="550" height="180" src="https://github.com/yanlongtu/robInfLib/blob/master/images/orientation_kmp_data.png">
