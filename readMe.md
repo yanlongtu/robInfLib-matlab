@@ -18,7 +18,7 @@ which have been acknowledged in the corresponding files.
 
 <p align="center">
   <b><i>Trajectory adaptation by using KMP (mean)</i></b> <br>
-  <img width="720" height="100"  src="https://github.com/yanlongtu/robInfLib/blob/master/images/kmp_adaptationG.png">
+  <img width="720" height="125"  src="https://github.com/yanlongtu/robInfLib/blob/master/images/kmp_adaptationG.png">
 </p>
 
  * <b>KERNELIZED MOVEMENT PRIMITIVES (KMP) II </b> 
@@ -29,7 +29,7 @@ which have been acknowledged in the corresponding files.
 
 <p align="center">
   <b><i>Trajectory adaptation by using KMP (mean and covariance)</i></b> <br>
-  <img width="720" height="100"  src="https://github.com/yanlongtu/robInfLib/blob/master/images/kmp_adaptationB.png">
+  <img width="720" height="180"  src="https://github.com/yanlongtu/robInfLib/blob/master/images/kmp_adaptationB.png">
 </p>
 
  * <b>ORIENTATION-KMP</b>
