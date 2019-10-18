@@ -1,13 +1,8 @@
-%% DESCRIPTION
-
+function demo_orientationKMP
 % This file provide a simple demo of using orientation kmp, where orientation adaptations towards
 % various desired points in terms of quaternions and angular velocities are studied.
 % 
 % This code is written by Dr. Yanlong Huang
-
-%% REFERENCE
-
-% Please refer to the papers:
 
 % @InProceedings{Huang19ICRA_2,
 %   Title = {Generalized Orientation Learning in Robot Task Space},
@@ -38,10 +33,6 @@
 % }
 
 %%
-
-clear all
-close all
-% clc
 myColors;
 addpath('../fcts/');
 

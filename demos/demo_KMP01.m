@@ -1,14 +1,9 @@
-%% DESCRIPTION
-
+function demo_KMP01
 % This file provide a simple demo of using kmp, where trajectory adaptations towards
 % various desired points in terms of positions and velocities are studied.
 % 
 % This code is written by Dr. Yanlong Huang
 
-%% REFERENCE
-
-% Please refer to the papers:
- 
 % @InProceedings{Huang19IJRR,
 %   Title = {Kernelized Movement Primitives},
 %   Author = {Huang, Y. and Rozo, L. and Silv\'erio, J. and Caldwell, D. G.},
@@ -28,10 +23,6 @@
 % }
 
 %%
-
-clear all
-close all
-clc
 myColors;
 addpath('../fcts/');
 
