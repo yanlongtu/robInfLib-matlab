@@ -1,4 +1,4 @@
-### robotInfLib-matlab
+### robInfLib-matlab
 ```
 This library provides various demos of using kmp.
 
