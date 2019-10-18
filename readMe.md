@@ -25,12 +25,12 @@ which have been acknowledged in the corresponding files.
 
 > <b>KERNELIZED MOVEMENT PRIMITIVES II <i>(demo_KMP02.m)</i> </b> 
 <p align="center">
-  Model letters 'B' using GMM/GMR<br>
+  **Model letters 'B' using GMM/GMR**<br>
   <img width="720" height="160"  src="https://github.com/yanlongtu/robInfLib/blob/master/images/modelLetterB.png">
 </p>
 
 <p align="center">
-  Trajectory adaptation by using KMP (mean and covariance) <br>
+  **Trajectory adaptation by using KMP (mean and covariance)** <br>
   <img width="720" height="180"  src="https://github.com/yanlongtu/robInfLib/blob/master/images/kmp_adaptationB.png">
 </p>
 
@@ -38,11 +38,11 @@ which have been acknowledged in the corresponding files.
 
 > <b>ORIENTATION KERNELIZED MOVEMENT PRIMITIVES <i>(demo_orientationKMP.m)</i> </b>
 <p align="center">
-  Demonstrated quaternions and angular velocities <br>
+  **Demonstrated quaternions and angular velocities** <br>
   <img width="550" height="180" src="https://github.com/yanlongtu/robInfLib/blob/master/images/orientation_kmp_data.png">
 </p>
 <p align="center">
-  Adaptation by using orientation-KMP <br>
+  **Adaptation by using orientation-KMP** <br>
   <img width="550" height="180" src="https://github.com/yanlongtu/robInfLib/blob/master/images/orientation_kmp_ada.png">
 </p>
 
