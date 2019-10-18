@@ -51,6 +51,7 @@ which have been acknowledged in the corresponding files.
 ### REFERENCE
 
 ```
+[1] [Link to publication](https://arxiv.org/abs/1708.08638)
 @Article{Huang19IJRR,
   Title = {Kernelized Movement Primitives},
   Author = {Huang, Y. and Rozo, L. and Silv\'erio, J. and Caldwell, D. G.},
@@ -60,7 +61,9 @@ which have been acknowledged in the corresponding files.
   Number={7},
   Pages = {833--852},
 }
+```
 
+```
 @InProceedings{Huang19ICRA_1,
    Title = {Non-parametric Imitation Learning of Robot Motor Skills},
    Author = {Huang, Y. and Rozo, L. and Silv\'erio, J. and Caldwell, D. G.},
@@ -70,7 +73,9 @@ which have been acknowledged in the corresponding files.
    Month = {May},
    Pages = {5266--5272}
 }
+```
 
+```
 @InProceedings{Huang19ICRA_2,
    Title = {Generalized Orientation Learning in Robot Task Space},
    Author = {Huang, Y. and Abu-Dakka, F. and Silv\'erio, J. and Caldwell, D. G.},
