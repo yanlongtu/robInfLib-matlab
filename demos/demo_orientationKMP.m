@@ -168,11 +168,11 @@ if viaFlag(i) [sampleData,num] = kmp_insertPoint(sampleData,num,via_time(i),via_
 end
 
 %% KMP prediction
-Kinv = kmp_estimateMatrix(sampleData,num,kh,lamda,dim);
+Kinv = kmp_estimateMatrix_mean(sampleData,num,kh,lamda,dim);
 
 for index=1:len
     t=index*dt;
-    mu=kmp_pred(t,sampleData,num,kh,Kinv,dim);    
+    mu=kmp_pred_mean(t,sampleData,num,kh,Kinv,dim);    
     kmpTraj(1,index)=t;
     kmpTraj(2:7,index)=mu;
 end
@@ -265,7 +265,6 @@ ylabel('  [rad/s]','interpreter','tex')
 ylim([-0.5 0.5])
 set(gca,'xtick',[0 5 10])
 set(gca,'ytick',[-0.5 0 0.5])
-
 set(gca,'FontSize',18)
 grid on
 set(gca,'gridlinestyle','--')
