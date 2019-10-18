@@ -50,8 +50,21 @@ which have been acknowledged in the corresponding files.
 
 ### REFERENCE
 
+#### [1] KMP: learning and adaptation 
+[Link to publication](https://www.researchgate.net/publication/331481661_Non-parametric_Imitation_Learning_of_Robot_Motor_Skills)
+```
+@InProceedings{Huang19ICRA_1,
+   Title = {Non-parametric Imitation Learning of Robot Motor Skills},
+   Author = {Huang, Y. and Rozo, L. and Silv\'erio, J. and Caldwell, D. G.},
+   Booktitle = {Proc. {IEEE} International Conference on Robotics and Automation ({ICRA})},
+   Year = {2019},
+   Address = {Montreal, Canada},
+   Month = {May},
+   Pages = {5266--5272}
+}
+```
 
-#### [1] 
+#### [2] KMP: learning, adaptation, superposition and extrapolaton. 
 [Link to publication](https://arxiv.org/abs/1708.08638)
 ```
 @Article{Huang19IJRR,
@@ -65,18 +78,9 @@ which have been acknowledged in the corresponding files.
 }
 ```
 
-```
-@InProceedings{Huang19ICRA_1,
-   Title = {Non-parametric Imitation Learning of Robot Motor Skills},
-   Author = {Huang, Y. and Rozo, L. and Silv\'erio, J. and Caldwell, D. G.},
-   Booktitle = {Proc. {IEEE} International Conference on Robotics and Automation ({ICRA})},
-   Year = {2019},
-   Address = {Montreal, Canada},
-   Month = {May},
-   Pages = {5266--5272}
-}
-```
 
+#### [3] KMP orientation: learning and adaptation
+[Link to publication](https://www.researchgate.net/publication/330675655_Generalized_Orientation_Learning_in_Robot_Task_Space)
 ```
 @InProceedings{Huang19ICRA_2,
    Title = {Generalized Orientation Learning in Robot Task Space},
