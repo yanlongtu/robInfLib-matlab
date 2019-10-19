@@ -49,13 +49,13 @@ which have been acknowledged in the corresponding files.
 > <b>UNCERTAINTY-AWARE KERNELIZED MOVEMENT PRIMITIVES <i>(demo_KMP_uncertainty.m, ref. [4])</i> </b>
 <p align="center">
   **Covariance and uncertainty prediction by using KMP while considering adaptations** <br>
-  <img width="800" height="180" src="https://github.com/yanlongtu/robInfLib/blob/master/images/kmp_uncertainty.png">
+  <img width="1400" height="180" src="https://github.com/yanlongtu/robInfLib/blob/master/images/kmp_uncertainty.png">
 </p>
 
 ### REFERENCE
 
 #### [1] KMP: learning and adaptation 
-[Link to publication](https://www.researchgate.net/publication/331481661_Non-parametric_Imitation_Learning_of_Robot_Motor_Skills)
+[[Link to publication]](https://www.researchgate.net/publication/331481661_Non-parametric_Imitation_Learning_of_Robot_Motor_Skills)
 ```
 @InProceedings{Huang19ICRA_1,
    Title = {Non-parametric Imitation Learning of Robot Motor Skills},
@@ -69,8 +69,8 @@ which have been acknowledged in the corresponding files.
 ```
 
 #### [2] KMP: learning, adaptation, superposition and extrapolaton. 
-[Link to publication](https://www.researchgate.net/publication/319349682_Kernelized_Movement_Primitives) &nbsp;&nbsp;
-[Link to video](https://www.youtube.com/watch?v=sepb6Vs3OMI&feature=youtu.be)
+[[Link to publication]](https://www.researchgate.net/publication/319349682_Kernelized_Movement_Primitives)
+[[Link to video]](https://www.youtube.com/watch?v=sepb6Vs3OMI&feature=youtu.be)
 ```
 @Article{Huang19IJRR,
   Title = {Kernelized Movement Primitives},
@@ -85,8 +85,8 @@ which have been acknowledged in the corresponding files.
 
 
 #### [3] KMP orientation: learning and adaptation
-[Link to publication](https://www.researchgate.net/publication/330675655_Generalized_Orientation_Learning_in_Robot_Task_Space)
-[Link to video](https://www.youtube.com/watch?v=swYJZfAWTHk&feature=youtu.be)
+[[Link to publication]](https://www.researchgate.net/publication/330675655_Generalized_Orientation_Learning_in_Robot_Task_Space)
+[[Link to video]](https://www.youtube.com/watch?v=swYJZfAWTHk&feature=youtu.be)
 ```
 @InProceedings{Huang19ICRA_2,
    Title = {Generalized Orientation Learning in Robot Task Space},
@@ -100,8 +100,8 @@ which have been acknowledged in the corresponding files.
 ```
 
 #### [4] Uncertainty-aware KMP: uncertainty/covariance prediction and adaptation
-[Link to publication](https://www.researchgate.net/publication/334884378_Uncertainty-Aware_Imitation_Learning_using_Kernelized_Movement_Primitives)
-[Link to video](https://www.youtube.com/watch?v=HVk2goCQiaA&feature=youtu.be)
+[[Link to publication]](https://www.researchgate.net/publication/334884378_Uncertainty-Aware_Imitation_Learning_using_Kernelized_Movement_Primitives)
+[[Link to video]](https://www.youtube.com/watch?v=HVk2goCQiaA&feature=youtu.be)
 ```
 @InProceedings{silverio2019uncertainty,
   Title = {Uncertainty-Aware Imitation Learning using Kernelized Movement Primitives},
