@@ -243,7 +243,7 @@ set(gca,'gridlinestyle','--')
 ax=gca;
 ax.GridAlpha=0.3;
 
-%% plot t-px, t-py, t-vx and t-vy
+%% plot t-px and t-py
 shadowT=dt:dt:dt*len;
 shadow_time=[shadowT,fliplr(shadowT)];
 
