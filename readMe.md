@@ -49,7 +49,7 @@ which have been acknowledged in the corresponding files.
 > <b>UNCERTAINTY-AWARE KERNELIZED MOVEMENT PRIMITIVES <i>(demo_KMP_uncertainty.m, ref. [4])</i> </b>
 <p align="center">
   **Covariance and uncertainty prediction by using KMP while considering adaptations** <br>
-  <img width="550" height="180" src="https://github.com/yanlongtu/robInfLib/blob/master/images/kmp_uncertainty.png">
+  <img width="800" height="180" src="https://github.com/yanlongtu/robInfLib/blob/master/images/kmp_uncertainty.png">
 </p>
 
 ### REFERENCE
@@ -69,7 +69,7 @@ which have been acknowledged in the corresponding files.
 ```
 
 #### [2] KMP: learning, adaptation, superposition and extrapolaton. 
-[Link to publication](https://www.researchgate.net/publication/319349682_Kernelized_Movement_Primitives)
+[Link to publication](https://www.researchgate.net/publication/319349682_Kernelized_Movement_Primitives) &nbsp;&nbsp;
 [Link to video](https://www.youtube.com/watch?v=sepb6Vs3OMI&feature=youtu.be)
 ```
 @Article{Huang19IJRR,
