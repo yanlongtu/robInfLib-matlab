@@ -49,7 +49,7 @@ which have been acknowledged in the corresponding files.
 > <b>UNCERTAINTY-AWARE KERNELIZED MOVEMENT PRIMITIVES <i>(demo_KMP_uncertainty.m, ref. [4])</i> </b>
 <p align="center">
   **Covariance and uncertainty prediction by using KMP while considering adaptations** <br>
-  <img width="1000" height="180" src="https://github.com/yanlongtu/robInfLib/blob/master/images/kmp_uncertainty.png">
+  <img width="800" height="180" src="https://github.com/yanlongtu/robInfLib/blob/master/images/kmp_uncertainty.png">
 </p>
 
 ### REFERENCE
