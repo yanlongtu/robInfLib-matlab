@@ -65,7 +65,7 @@ which have been acknowledged in the corresponding files.
 ```
 
 #### [2] KMP: learning, adaptation, superposition and extrapolaton. 
-[Link to publication](https://arxiv.org/abs/1708.08638)
+[Link to publication](https://www.researchgate.net/publication/319349682_Kernelized_Movement_Primitives)
 ```
 @Article{Huang19IJRR,
   Title = {Kernelized Movement Primitives},
