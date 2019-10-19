@@ -36,7 +36,7 @@ which have been acknowledged in the corresponding files.
 
 
 
-> <b>ORIENTATION KERNELIZED MOVEMENT PRIMITIVES <i>(demo_orientationKMP.m, ref. [3])</i> </b>
+> <b>ORIENTATION KERNELIZED MOVEMENT PRIMITIVES <i>(demo_KMP_orientation.m, ref. [3])</i> </b>
 <p align="center">
   **Demonstrated quaternions and angular velocities** <br>
   <img width="550" height="180" src="https://github.com/yanlongtu/robInfLib/blob/master/images/orientation_kmp_data.png">
