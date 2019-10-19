@@ -108,7 +108,7 @@ end
 for i=1:len
     gmr(:,i)=refTraj(i).mu;     % format:[2D-pos 2D-vel]
     kmp(:,i)=kmpPredTraj(i).mu; % format:[2D-pos 2D-vel]
-    for h=1:4
+    for h=1:2*dim
         gmrVar(h,i)=refTraj(i).sigma(h,h);
         gmrVar(h,i)=sqrt(gmrVar(h,i));
         
@@ -282,16 +282,6 @@ if plotIndex==1 || plotIndex==2
     end  
     ylim([-15 15])
     set(gca,'ytick',[-10 0 10]);
-end
-if plotIndex==3 || plotIndex==4 
-    if plotIndex==3
-       ylabel('$\dot{x}$ [cm/s]','interpreter','latex');
-    end
-    if plotIndex==4
-       ylabel('$\dot{y}$ [cm/s]','interpreter','latex');
-    end
-    ylim([-80 80])
-    set(gca,'ytick',[-80 0 80]);
 end
 
 xlabel('$t$ [s]','interpreter','latex');
