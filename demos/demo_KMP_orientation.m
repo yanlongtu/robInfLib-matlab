@@ -1,4 +1,4 @@
-function demo_orientationKMP
+function demo_KMP_orientation
 % This file provide a simple demo of using orientation kmp, where orientation adaptations towards
 % various desired points in terms of quaternions and angular velocities are studied.
 % 
