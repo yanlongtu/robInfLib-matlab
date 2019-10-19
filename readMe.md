@@ -4,7 +4,7 @@ This library provides various demos of using kmp.
 
 These codes are mainly written by Dr. Yanlong Huang.
 
-Part of the codes are provided by Dr. Sylvain Calinon, Dr. Fares J. Abu-Dakka and Dr. João Silvério,
+Part of the codes are provided by Dr. Fares J. Abu-Dakka, Dr. João Silvério and Dr. Sylvain Calinon
 which have been acknowledged in the corresponding files.
 ```
 
