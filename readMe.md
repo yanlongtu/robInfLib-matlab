@@ -1,10 +1,13 @@
-### robInfLib-matlab
+# robInfLib-matlab
 ```
-This library provides various demos of using kmp.
+RobInfLib is a library consisting of various demos of using Kernelized Movement Primitives (KMP), 
+which is maintained by
 
-These codes are mainly written by Dr. Yanlong Huang.
+          Dr. Yanlong Huang (Istituto Italiano di Tecnologia)
+	  Dr. Fares J. Abu-Dakka (Aalto University)
+          Dr. João Silvério (Idiap Research Institute)
 
-Part of the codes are provided by Dr. Fares J. Abu-Dakka, Dr. João Silvério and Dr. Sylvain Calinon
+Part of the codes are provided by Dr. Sylvain Calinon (Idiap Research Institute)
 which have been acknowledged in the corresponding files.
 ```
 
