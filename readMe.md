@@ -5,7 +5,7 @@ which is maintained by
           Dr. Yanlong Huang (Istituto Italiano di Tecnologia)
 	  Dr. Fares J. Abu-Dakka (Aalto University)
           Dr. João Silvério (Idiap Research Institute)
-Part of the codes are provided by Dr. Sylvain Calinon (Idiap Research Institute)
+Part of the codes are provided by Dr. Sylvain Calinon (Idiap Research Institute),
 which have been acknowledged in the corresponding files.
 ```
 
