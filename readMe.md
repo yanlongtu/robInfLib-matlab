@@ -1,6 +1,6 @@
 # robInfLib-matlab
 ```
-RobInfLib is a library consisting of various demos of using Kernelized Movement Primitives (KMP), 
+Robot Inference Library (robInfLib) provides various demos of using Kernelized Movement Primitives (KMP), 
 which is maintained by
           Dr. Yanlong Huang (Istituto Italiano di Tecnologia)
 	  Dr. Fares J. Abu-Dakka (Aalto University)
