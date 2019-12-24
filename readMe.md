@@ -2,7 +2,7 @@
 ```
 Robot Inference Library (robInfLib) provides various demos of using Kernelized Movement Primitives, 
 which is maintained by
-         Dr. Yanlong Huang (Istituto Italiano di Tecnologia)
+         Dr. Yanlong Huang (University of Leeds)
          Dr. João Silvério (Idiap Research Institute)
 	 Dr. Fares J. Abu-Dakka (Aalto University)
 Part of the codes are provided by Dr. Sylvain Calinon (Idiap Research Institute),
