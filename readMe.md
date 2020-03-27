@@ -105,7 +105,8 @@ which have been acknowledged in the corresponding files.
   Title = {Uncertainty-Aware Imitation Learning using Kernelized Movement Primitives},
   Author = {Silv\'erio, J. and Huang, Y. and Abu-Dakka, Fares J and Rozo, L. and  Caldwell, D. G.},
   Booktitle = {Proc. {IEEE/RSJ} International Conference on Intelligent Robots and Systems ({IROS})},
-  Year = {2019, to appear},
+  Year = {2019},
+  Pages={90--97}
 }
 ```
 
