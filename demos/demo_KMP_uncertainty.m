@@ -1,4 +1,4 @@
-function demo_KMP_uncertainty
+%-----------demo_KMP_uncertainty----------
 % This file provide a simple demo of using kmp, where both the trajectory covariance
 % and uncertainty are predicted.
 % 
@@ -12,6 +12,7 @@ function demo_KMP_uncertainty
 % }
 
 %%
+clear; close all;
 myColors;
 addpath('../fcts/');
 
@@ -29,11 +30,11 @@ for i=1:demoNum
         totalNum=totalNum+1;
         Data(1,totalNum)=j*demo_dt;
         Data(2:dim+1,totalNum)=demos{i}.pos(1:dim,j);
-        if j<demoLen
-            Data(dim+2:2*dim+1,totalNum)=(demos{i}.pos(1:dim,j+1)-demos{i}.pos(1:dim,j))/demo_dt;
-        else 
-            Data(dim+2:2*dim+1,totalNum)=Data(dim+2:2*dim+1,totalNum-1);
-        end
+    end
+    lowIndex=(i-1)*demoLen+1;
+    upIndex=i*demoLen;
+    for k=1:dim
+        Data(dim+1+k,lowIndex:upIndex)=gradient(Data(1+k,lowIndex:upIndex))/demo_dt;
     end    
 end
 
