@@ -77,18 +77,24 @@ end
 
 %% Project demos into Euclidean space and model new trajectories using GMM/GMR
 Data=[]; % save transformed data
-for j=1:demoNum*len
-    time=demosAll(1,j);
-    qtemp.s=demosAll(2,j);
-    qtemp.v=demosAll(3:5,j);
+for i=1:demoNum
+    for j=1:len
+        
+        qindex=(i-1)*len+j;
+        time=demosAll(1,qindex);
+        qtemp.s=demosAll(2,qindex);
+        qtemp.v=demosAll(3:5,qindex);
 
-    zeta(1,j)=time;
-    zeta(2:4,j)=quat_log(qtemp, q1);  %q1 serves as the auxiliary quaternion
+        zeta(1,j)=time;
+        zeta(2:4,j)=quat_log(qtemp, q1);  %q1 serves as the auxiliary quaternion
+    end
+    
+    for h=1:3        
+        zeta(4+h,:)=gradient(zeta(h+1,:))/dt;
+    end
+    
+    Data=[Data zeta];
 end
-for h=1:3        
-zeta(4+h,:)=gradient(zeta(h+1,:))/dt;
-end
-Data=[Data zeta];
 
 model.nbStates = 5; %Number of states in the GMM
 model.nbVar =7;     %Number of variables [t,wx,wy,wz,ax,ay,az]
